@@ -1,0 +1,57 @@
+@import url('http://fonts.cdnfonts.com/css/xilosa');
+
+*{
+    margin: 0%;
+}
+body{
+    background-image: url(fundo.jpg);
+    background-size: 100%;
+}
+h1{
+    font-family: 'Xilosa';
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 80px;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgb(33, 70, 156);
+}
+.numeros div{
+    border:solid 4px rgb(33, 70, 156);
+    padding:15px;
+    float:left;
+    margin:10px;
+    font-family: 'Xilosa', sans-serif; 
+    border-radius: 15px;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgb(0, 76, 255);
+  
+
+
+}
+.ultimo{
+    background-color:rgb(238, 33, 33);
+    color:white;
+   
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+input[type=submit]{
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-family: 'Xilosa';
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 33, 33);
+}
